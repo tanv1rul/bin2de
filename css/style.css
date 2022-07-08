@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #1c1c1c;
+}
+
+@font-face {
+    font-family: "rocko";
+    src: url(../fonts/Rocko.ttf);
+}
+
+
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* styling form start */
+#input-from{
+    display: inline-block;
+    width: 254px;
+    height: 122px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.7);
+    margin: 25px 0;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+#input-from form div{
+    display: flex;
+    flex-direction: column;
+}
+
+#input-from form div label{
+    text-align: left;
+    font-family: sans-serif;
+}
+
+#input-from form div #binNumber{
+    width: 250px;
+    height: 50px;
+    font-family: "rocko";
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.btn{
+    margin-top: 15px;
+    width: 75px;
+    height: 30px;
+}
+/* styling form end */
+
+
+/* output card start */
+#output{
+    width: 274px;
+    height: 160px;
+    font-family: "rocko";
+    font-size: 30px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.7);
+    color: #000;
+    padding: 15px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#output #equal-sign{
+    display: inline-block;
+    font-size: 50px;
+    transform: rotate(90deg);
+}
+/* output card end */
